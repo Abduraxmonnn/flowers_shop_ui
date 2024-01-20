@@ -4,13 +4,13 @@
 :root {
   --quick-sand: 'Quick Sand', serif;
   --libre-baskerville: 'Libre Baskerville', serif;
-  
-  --color-lightgray: lightgray ;
+
+  --color-lightgray: lightgray;
   --color-green: #008000;
   --color-lightgreen: rgba(191, 216, 191, 0.49);
   --color-black: #000;
-  --color-white: #FFFFFF;
-  --color-grey: #AAAAAA;
+  --color-white: #ffffff;
+  --color-grey: #aaaaaa;
 }
 
 * {
@@ -18,6 +18,19 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+  max-width: 1320px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+ul,
+ol {
+  list-style: none;
 }
 
 a {
@@ -28,21 +41,21 @@ a {
 @-webkit-keyframes slide-bottom {
   0% {
     -webkit-transform: translateY(-25%);
-            transform: translateY(-25%);
+    transform: translateY(-25%);
   }
   100% {
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
 }
 
 @keyframes slide-bottom {
   0% {
     -webkit-transform: translateY(-25%);
-            transform: translateY(-25%);
+    transform: translateY(-25%);
   }
   100% {
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
 }

@@ -1,4 +1,61 @@
 .app__hero {
-    margin-top: 40px;
-    padding: 0 165px;
+  margin-top: 40px;
+  padding: 0 165px;
+}
+
+.hero__text-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 65px;
+}
+
+.hero__text-list > li {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.hero__text-list > li div {
+  max-width: 230px;
+}
+
+.hero__text-list > li img {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+}
+
+.hero__text-list > li p {
+  color: #000;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.hero__text-list > li span {
+  color: #000;
+  font-weight: 300;
+}
+
+.hero__images {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.hero__images__content-wrapper {
+  position: relative;
+}
+
+.hero__images__content-wrapper .texts {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  max-width: 240px;
+  width: 100%;
+  text-align: center;
+  padding: 4px;
 }
