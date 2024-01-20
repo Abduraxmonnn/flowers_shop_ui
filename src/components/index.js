@@ -4,6 +4,7 @@ import AboutUs from './AboutUs/AboutUs';
 import OurProducts from './OurProducts/OurProducts';
 import CustomProducts from './CustomProducts/CustomProducts';
 import Gallery from './Gallery/Gallery';
-import Footer from './Footer/Footer'
+import Footer from './Footer/Footer';
+import HeroSection from './HeroSection/HeroSection';
 
-export { Header, Intro, AboutUs, OurProducts, CustomProducts, Gallery, Footer } 
+export { Header, Intro, HeroSection, AboutUs, OurProducts, CustomProducts, Gallery, Footer } 

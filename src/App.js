@@ -3,6 +3,7 @@ import React from 'react';
 import {
 	Header,
 	Intro,
+	HeroSection,
 	AboutUs,
 	OurProducts,
 	CustomProducts,
@@ -15,6 +16,7 @@ const App = () => (
 	<div>
 		<Header />
 		<Intro />
+		<HeroSection />
 		<AboutUs />
 		<OurProducts />
 		<CustomProducts />
