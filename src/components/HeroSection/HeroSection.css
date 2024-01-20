@@ -48,7 +48,7 @@
   position: relative;
 }
 
-.hero__images__content-wrapper .texts {
+.texts {
   position: absolute;
   bottom: 10px;
   left: 50%;
@@ -58,4 +58,15 @@
   width: 100%;
   text-align: center;
   padding: 4px;
+  cursor: pointer;
+}
+
+.texts > p {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.texts span {
+  font-size: 17px;
+  font-weight: 300;
 }
