@@ -12,10 +12,6 @@
     margin-top: 12px;
 }
 
-.app__intro button {
-    width: fit-content;
-}
-
 .app__intro p {
     color: #000;
     font-family: var(--quick-sand);
@@ -34,14 +30,4 @@
     line-height: 50px;
     width: 475px;
     margin: 9px 0;
-}
-
-.app__intro button {
-    width: 170px;
-    height: 44.718px;
-    flex-shrink: 0;
-    border-radius: 20px;
-    border: none;
-    background-color: var(--color-green);
-    color: var(--color-white);
 }

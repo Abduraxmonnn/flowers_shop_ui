@@ -4,7 +4,7 @@ import { images } from '../../constants';
 import './Header.css'
 
 const Header = () => (
-	<nav className='app__header'>
+	<nav className='app__header' data-aos='fade-down'>
 		<div className='app__header-logo'>
 			<img src={images.logo} alt='logo' />
 		</div>

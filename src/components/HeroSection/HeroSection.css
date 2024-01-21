@@ -48,6 +48,11 @@
   position: relative;
 }
 
+.hero__images__content-wrapper > img {
+  max-width: 255px;
+  width: 100%;
+}
+
 .texts {
   position: absolute;
   bottom: 10px;
