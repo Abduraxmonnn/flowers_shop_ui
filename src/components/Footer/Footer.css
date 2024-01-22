@@ -1,0 +1,97 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 88px;
+}
+
+.footer__logo {
+    max-width: 254px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.footer__middle-navigation > ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    gap: 12px;
+}
+
+.footer__middle-navigation > ul li {
+    cursor: pointer;
+}
+
+.footer__middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 65px;
+}
+
+.footer__middle-contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__middle-contacts > ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__middle-contacts > ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer__middle-contacts > ul li img {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+}
+
+.footer__address {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__address > div {
+    margin-bottom: 30px;
+}
+
+.footer__address > div:first-child ul {
+    list-style: disc;
+}
+
+.footer__social-networks {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__social-networks > ul {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__social-networks > ul li img {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.footer__middle-navigation > span,
+.footer__middle-contacts > span,
+.footer__address > span,
+.footer__middle > span,
+.footer__address > div span,
+.footer__social-networks > span {
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
