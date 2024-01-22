@@ -8,6 +8,8 @@ import rose_flower from '../assets/rose-flower.png'
 import violet_flowers from '../assets/violet-flowers.png'
 import flower from '../assets/flower.png'
 
+import { images } from './images';
+
 
 export const heroTextContent = [
   {
@@ -58,3 +60,77 @@ export const heroImages = [
     itemsCount: 25,
   },
 ];
+
+export const OurProductsData = [
+	{
+		id: 1,
+		img: images.product_1,
+		title: 'Clary Sage Oil',
+		itemsCount: 35,
+	},
+	{
+		id: 2,
+		img: images.product_2,
+		title: 'Eucalyptus Oil',
+		itemsCount: 27,
+	},
+	{
+		id: 3,
+		img: images.product_3,
+		title: 'Meroli Oil',
+		itemsCount: 40,
+	},
+	{
+		id: 4,
+		img: images.product_4,
+		title: 'Cinnamon Bark Oil',
+		itemsCount: 42,
+	},
+	{
+		id: 5,
+		img: images.product_5,
+		title: 'Kalonji Oil',
+		itemsCount: 35,
+	},
+	{
+		id: 6,
+		img: images.product_6,
+		title: 'Bergamot Oil',
+		itemsCount: 37,
+	},
+	{
+		id: 7,
+		img: images.product_7,
+		title: 'Camphour Oil',
+		itemsCount: 42,
+	},
+	{
+		id: 8,
+		img: images.product_8,
+		title: 'Jojoba Oil',
+		itemsCount: 18,
+	},
+]
+
+export const heroGallery = [
+	{
+		id: 1,
+		img: images.social_1,
+		btn: images.instagram_image_btn,
+	},
+	{
+		id: 2,
+		img: images.social_2,
+		btn: images.instagram_image_btn,
+	},
+	{
+		id: 3,
+		img: images.social_3,
+		btn: images.instagram_image_btn,
+	},
+	{
+		id: 4,
+		img: images.social_4,
+		btn: images.instagram_image_btn,
+	},
+]

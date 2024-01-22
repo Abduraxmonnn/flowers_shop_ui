@@ -1,0 +1,44 @@
+.app__customproducts {
+    background-image: url("../../assets/custom-products-background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 505px;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 113px;
+}
+
+.app__customproducts > p {
+    color: var((--color-black));
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 9px;
+}
+
+.app__customproducts > h1 {
+    color: var(--color-white);
+    font-family: var(--libre-baskerville);
+    font-size: 36px;
+    font-weight: 400;
+    max-width: 503px;
+    width: 100%;
+    margin-bottom: 45px;
+}
+
+.app__customproducts > button {
+    max-width: 170px;
+    width: 100%;
+    height: 44.718px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--color-white);
+    color: var(--color-green);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+}
