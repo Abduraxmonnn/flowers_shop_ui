@@ -1,6 +1,5 @@
-import './Gallery.css'
-import { images, hero } from '../../constants';
-import { heroGallery } from '../../constants/hero';
+import './Gallery.css';
+import { heroGallery } from '../../../constants/hero';
 
 const Gallery = () => {
 	return (

@@ -1,6 +1,6 @@
 import './AboutUs.css'
 
-import { images } from '../../constants/images'
+import { images } from '../../../constants'
 
 const AboutUs = () => {
 	return (

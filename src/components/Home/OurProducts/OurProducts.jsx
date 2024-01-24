@@ -1,6 +1,6 @@
-import './OurProducts.css';
-import { images } from '../../constants';
-import { OurProductsData } from '../../constants/hero';
+import './OurProducts.css'
+import { OurProductsData } from '../../../constants/hero'
+import { images } from '../../../constants';
 
 const OurProducts = () => {
 	return (
@@ -36,4 +36,4 @@ const OurProducts = () => {
 		</section>
 	)
 }
-export default OurProducts;
+export default OurProducts

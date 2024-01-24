@@ -1,5 +1,5 @@
-import './HeroSection.css';
-import { heroImages, heroTextContent } from '../../constants/hero';
+import { heroImages, heroTextContent } from '../../../constants/hero';
+import './HeroSection.css'
 
 const HeroSection = () => {
   return (

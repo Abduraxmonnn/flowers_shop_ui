@@ -1,4 +1,3 @@
-import React from 'react'
 import './CustomProducts.css'
 
 const CustomProducts = () => {

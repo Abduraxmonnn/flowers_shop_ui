@@ -1,5 +1,5 @@
-import './Footer.css'
-import { images } from '../../constants';
+import './Footer.css';
+import { images } from '../../../constants';
 
 const Footer = () => {
 	return (
