@@ -1,6 +1,7 @@
 import { images } from '../../../constants';
 import { Link } from 'react-router-dom';
 import './Header.css';
+import AntTest from '../../AntTest';
 
 const Header = () => (
 	<nav className='app__header' data-aos='fade-down'>
@@ -12,7 +13,7 @@ const Header = () => (
 			<li className='p_quicksand'>Home</li>
 			<li className='p_quicksand'>About Us</li>
 			<li className='p_quicksand'>Services</li>
-			<Link to={'http://google.com/'}>
+			<Link to="/ant">
 				<li className='p_quicksand'>Shop</li>
 			</Link>
 			<li className='p_quicksand'>Contact Us</li>

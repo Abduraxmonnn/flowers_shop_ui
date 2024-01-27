@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom'
 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import AntTest from './components/AntTest';
 
 // init AOS animation
 AOS.init({
@@ -15,6 +16,7 @@ const App = () => {
 	return (
 		<Routes>
 			<Route path='/' element={<Home />} />
+			<Route path='ant' element={<AntTest />} />
 		</Routes>
 	)
 }

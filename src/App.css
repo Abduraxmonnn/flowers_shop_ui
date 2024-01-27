@@ -1,6 +1,15 @@
-/* *::-webkit-scrollbar {
-  display: none;
-} */
+body::-webkit-scrollbar {
+  width: 4px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--color-green);
+  border-radius: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--color-white);
+}
 
 .section__padding {
   padding: 4rem 6rem;

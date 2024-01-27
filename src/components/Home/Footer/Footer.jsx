@@ -23,13 +23,11 @@ const Footer = () => {
 					<ul>
 						<li>
 							<img src={images.phone_icon} alt='phone icon' />
-							<p>Tell:</p>
-							<p>525624553474</p>
+							<a href='tel:525624553474'>525624553474</a>
 						</li>
 						<li>
 							<img src={images.phone_icon} alt='phone icon' />
-							<p>Office tell:</p>
-							<p>312525616000033</p>
+							<a href='tel:312525616000033'>312525616000033</a>
 						</li>
 					</ul>
 				</div>
